@@ -1,12 +1,8 @@
 package main
 
-import (
-	"fmt"
-
-	"example.com/greetings"
-)
+import "fmt"
 
 func main() {
-	message := greetings.Hello("glady")
-	fmt.Println(message)
+	// Get a greeting message and print it.
+	fmt.Println("Hello world")
 }
